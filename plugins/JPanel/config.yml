@@ -1,0 +1,11 @@
+http-port: 4567
+debug-mode: true
+use-ssl: false
+keystore-name: ''
+keystore-password: ''
+users:
+  k:
+    password: 1000:ae051bc5e04cbff597ace812e3526dd4:3a057fdd93334b1b4ccea0167716dde77bf54d78025815a1f7c8b6dfac03b3fbf6dd244cd5e8b33854e760724508d49f00162e164725c44b1cd13ebc48c9441e
+    canEditFiles: true
+    canChangeGroups: true
+    canSendCommands: true

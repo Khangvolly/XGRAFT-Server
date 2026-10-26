@@ -1,0 +1,95 @@
+afk:
+  # Set whether or not the AFK timer should be enabled.
+  enabled: true
+  # Set the amount of time (in seconds) a user must be still
+  # before he/she is considered AFK.
+  movement: 10
+
+backup:
+  # Set whether or not all player data should be backed
+  # up at a set interval.
+  enabled: true
+  # If enabled, the amount of time (in seconds) that a new
+  # backup will be performed. For example, if set to 30, then
+  # a backup will be performed every 30 seconds.
+  time: 60
+
+commands:
+  # Set a list of commands that will be displayed when the player
+  # executes the "/pt help" command.
+  help:
+    - "/pt [help] - Show the PlayerTime help page."
+    - "/pt time - Show your total amount of time online."
+    - "/pt leaderboard <top/avg> - Show the top players/your average amount online."
+    - "/pt sign <add/remove> [name] - Add/Remove a proximity-based sign."
+    - "/pt givereward <player> <name> [override] - Give the user the specified reward."
+    - "/pt reload - Reload the PlayerTime configuration."
+
+database:
+  mysql:
+    # Set if we are using MySQL to store our players.
+    # If set to false, the plugin will resort to flat-file.
+    enabled: false
+    credentials:
+      # The hostname for your database.
+      host: ""
+      # The username for your database.
+      user: ""
+      # The password for your database.
+      pass: ""
+      # The database in which to build the tables.
+      db: ""
+
+proximity:
+  # Set if the sign proximity detector is enabled.
+  enabled: true
+  # Set the distance the player must be away from the sign
+  # before it will change to tell his/her time online.
+  distance: 5
+  # Set the format the sign will use when displaying the player's
+  # time online. Each line in this node represents a line on a sign.
+  # Please note that any messages over 15 characters will be snipped
+  # to comply with Minecraft's built-in character limit for signs.
+  # 
+  # The following variables are available:
+  #   - "%player%" (Replaced with the player's name)
+  #   - "%time_online%" (Replaced with the player's total time, with the 'time-format' format.)
+  sign-format:
+    - "%player%"
+    - ""
+    - "Time Spent:"
+    - "%time_online%"
+  # Set the format to be displayed on the sign for the time. Please use the following
+  # variables when setting up the format:
+  #   - '%d' (Days Online)
+  #   - '%h' (Hours Online)
+  #   - '%m'  (Minutes Online)
+  #   - '%s' (Seconds Online)
+  time-format: "%m Minutes"
+
+reward:
+  config:
+    # Set whether or not rewards are enabled on this server.
+    enabled: false
+    # Set the amount of time (in seconds) that will pass before a timer
+    # will check if the players online have any rewards pending, and give
+    # it to him/her.
+    clock-interval: 10
+  rewards:
+    # Set the name of the reward. This will later be used when granting
+    # the user with the permission to receive this reward. For example,
+    # if this node is set to 'default', you must give the player the 
+    # permission node 'playertime.reward.default' to receive this reward.
+    'default':
+      # Set the amount of time (in seconds) that the player must be online
+      # before he/she is eligible for this reward.
+      time: 60
+      # Set a list of commands will be executed when the player receives this
+      # reward. You may use "%player%" in replacement of the player's name.
+      commands:
+        - "say %player% has been online for 1 minute."
+    'diamondsword':
+      time: 3600
+      commands:
+        - "say %player% has been given a diamond sword for being online for 60 minutes!"
+        - "give %player% diamond_sword 1"
