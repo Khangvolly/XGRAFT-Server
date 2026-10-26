@@ -1,0 +1,32 @@
+General:
+  bStats: true
+  Disabled: false
+  DisableIfChatEventCancelled: true
+  DisableChatMessages: false
+  PermissionsEnabled: false
+  PermissionsPrefix: chatbubbles
+  MaxBubbleCount: 5
+  DisabledWorlds:
+  - TheNameOfADisabledWorld
+  - AnotherDisabledWorld
+Bubble:
+  OffSet: 0.5
+  Spacing: 0.1
+  Scale: 1.3
+  ViewRange: 1.0
+  Prefix: ''
+  Suffix: ''
+  DurationInSeconds: 9
+  Animation:
+    InAndOutSpeed: 5
+    UpSpeed: 5
+  Style:
+    Billboard: CENTER
+    Shadow: true
+    Background: true
+    BackgroundColor: 838860800
+    MaxLineWidth: 100
+    SeeThroughBlocks: false
+    TextAlignment: CENTER
+    TextOpacity: -1
+    TextColor: '#FFFFFF'

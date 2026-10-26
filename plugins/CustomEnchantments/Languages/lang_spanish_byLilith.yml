@@ -1,0 +1,458 @@
+#Custom Language, From english to your language of choice
+#List of color codes here: https://www.digminecraft.com/lists/color_list_pc.php
+#Spanish Translation by: Lilith Lilian Waterbug
+ABSORB_NAME: Absorber
+ABSORB_LORE:
+  - "§b-Gana resistencia si esta equipado"
+  - "§b Entre mas bajo el HP, mayor la resistencia ganada"
+AUTOREPAIR_NAME: Auto Reparar
+AUTOREPAIR_LORE:
+  - "§b-Lentamente repara tus items con el tiempo"
+  - "§a (Encantamiento universal)"
+  - "§e Nivel maximo: §c2"
+AUTOSMELT_NAME: Auto Fundido
+AUTOSMELT_LORE:
+  - "§b-Las menas minadas se fundiran"
+  - "§b automaticamente en lingotes "
+AXOLOTL_BUFF_NAME: Poder del Ajolote
+AXOLOTL_BUFF_LORE:
+  - "§b-Cuando tenga poca vida, invocara un"
+  - "§c ajolote §bpor 10s, curando solo al usuario"
+  - "§e Nivel maximo: §c2"
+BARRIER_NAME: Barrera
+BARRIER_LORE:
+  - "§d-Obten extra escudo para proteccion"
+  - "§b el escudo solo se regenerara cuando"
+  - "§b la salud este al maximo"
+  - "§e Nivel maximo: §c3"
+BLAST_NAME: "Estallido"
+BLAST_LORE:
+  - "§b-Lanza un proyectil desde su posicion"
+  - "§b el proyectil explotara al impactar"
+  - "§e Nivel maximo: §c2"
+BLEED_NAME: Sangrado
+BLEED_LORE:
+  - "§b-La victima sangrara por 10s"
+  - "§b (20% de probabilidad)"
+BLIND_NAME: Ceguera
+BLIND_LORE:
+  - "§b-20% de probabilidad de cegar a la victima por 3s"
+BLINDING_ARROW_NAME: Flecha Cegadora
+BLINDING_ARROW_LORE:
+  - "§b-Ciega a la victima por 2s"
+BLOCK_NAME: Bloquear
+BLOCK_LORE:
+  - "§b-Bloquea ataques entrantes si esta equipado"
+  - "§b (Ataques de Melee o Rango son blocked)"
+  - "§b (I - 20% | II - 40%)"
+  - "§e Nivel maximo: §c2"
+BURINING_NAME: Combustion
+BURNING_LORE:
+  - "§b-Inflige daño de wither y quema a la victima"
+  - "§3 (Se aplica en Espada o Hacha)"
+CHUNK_NAME: Chunk
+CHUNK_LORE:
+  - "§b-Mina un chunk de bloques en lugar"
+  - "§b de minar uno solo"
+  - "§e Nivel maximo: §c4"
+  - "§b lvl 1 - chunk pequeño§2 2 mins cooldown"
+  - "§b lvl 2 - chunk mediano§2 6 mins cooldown"
+  - "§b lvl 3 - chunk largo§2 15 mins cooldown"
+  - "§b lvl 4 - chunk entero§2 30 mins cooldown"
+  - "§a (lvl 1 & 2 costaran un 20% de durabilidad"
+  - "§a cada uno de los bloques minado, mientras que"
+  - "§a con lvl 3 & 4 costara solo 10% de durabilidad"
+  - "§a por bloque minadp)"
+  - "§d (Telekinesis sera inutil si se combinan)"
+COBWEB_NAME: Telaraña
+COBWEB_LORE:
+  - "§b-Cuando se use, se pondra una telaraña"
+  - "§b en la ubicacion de la victima"
+CRAVING_NAME: Hambruna
+CRAVING_LORE:
+  - "§b-Cuando se use, la victima tendra"
+  - "§b un 20% de probabilidad de sufrir hambre"
+CRITICAL_NAME: Critico
+CRITICAL_LORE:
+  - "§b-Hace mas daño a la victima"
+  - "§b (I - 20% | II - 25% | III - 30%)"
+  - "§b (se puede anular el daño con §dBloquear)"
+  - "§e Nivel maximo: §c3"
+DEATHANGEL_NAME: Angel de la Muerte
+DEATHANGEL_LORE:
+  - "§5-El poder de la muerte se ligara a tu arco"
+  - "§b haciendo caer un meteorito donde la flecha caiga"
+  - "§b (30s Cooldown)"
+DEBUFF_NAME: Debuff
+DEBUFF_LORE:
+  - "§b-Immune a efectos negativos cuando este equipado"
+  - "§b (Veneno | Nausea | Lentitud)"
+DEFORESTATION_NAME: Deforestacion
+DEFORESTATION_LORE:
+  - "§b-Corta todo el tronco vertical de un arbol"
+  - "§3 (cada tronco costara durabilidad en la herramienta)"
+DOLPHINSGRACE_NAME: Gracia de Delfin
+DOLPHINSGRACE_LORE:
+  - "§b-Otorga el efecto gracia de delfin al usarse"
+DUCTILE_NAME: Ductil
+DUCTILE_LORE:
+  - "§d-Absorbe daño entrante"
+  - "§b gana hasta 30% de absorcion"
+  - "§e Nivel maximo: §c5"
+EMERGENCYDEFENCE_NAME: Defensa de Emergencia
+EMERGENCYDEFENCE_LORE:
+  - "§b-Cuando el usuario tiene la vida baja"
+  - "§b negara todo el daño entrante (ataques meele/rango)"
+  - "§b mientras que regenera la vida por un total de 5s"
+  - "§b (3 mins cooldown)"
+EMNITY_NAME: Enemistad
+EMNITY_LORE:
+  - "§b-Gana ataque y fuerza al usarse"
+  - "§b entre mas baja la vida, mayor el daño"
+EXPERIENCE_NAME: Experiencia
+EXPERIENCE_LORE:
+  - "§b-Romper bloques sin minar daran xp"
+  - "§b-Romper menas de minerals daran mas xp"
+FIREBOOTS_NAME: Fire Boots
+FIREBOOTS_LORE:
+  - "§b-Grant fire resistance buff when equipped"
+FLOWERS_NAME: Flowers
+FLOWERS_LORE:
+  - "§b-Plant flowers when walking on grass block"
+FOODPOCKET_NAME: Bolsillo de Comida
+FOODPOCKET_LORE:
+  - "§b-Cada dos minutos recibiras"
+  - "§b un tipo de comida al azar"
+  - "§d (Util al viajar)"
+FREEZE_NAME: Congelar
+FREEZE_LORE:
+  - "§b-Inflige lentitud a la victima con"
+  - "§b probabilidad de 5% de que no pueda moverse por 2s"
+FROST_ARROW_NAME: Flecha Helada
+FROST_ARROW_LORE:
+  - "§5-Hace mas daño a la victima"
+  - "§b +25%§c/§b+30%§c/§b+45% Daño de Flecha"
+  - "§b Alenta a la victima por 1s"
+  - "§e Nivel maximo: §c3"
+HASTE_AURA_NAME: Haste Aura
+HASTE_AURA_LORE:
+  - "§b-Cuando se equipa, se obtendra"
+  - "§b prisa, players dentro de un radio"
+  - "§b de 5 bloques tambien recibiran prisa"
+  - "§e Nivel maximo: §c3"
+HEAL_NAME: Sanar
+HEAL_LORE:
+  - "§b-Gana un poco de regeneracion al usarse"
+ILLUSION_NAME: Ilusion
+ILLUSION_LORE:
+  - "§5 El peligro recide en ti"
+  - "§b-Al atacar, ganaras"
+  - "§b invicibilidad por 3s"
+  - "§b-Al ser invisible, no puedes atacar"
+  - "§b a la victima y la victima no puede verte"
+  - "§e Nivel maximo: §c2"
+  - "§b Nivel 1 - 2 cargas"
+  - "§b Nivel 2 - 4 cargas"
+IMPLANT_NAME: Implantar
+IMPLANT_LORE:
+  - "§5-La materia negra le otorgara fuerza a tu arco"
+  - "§b Maldice a tu victim con un golpe y la materia negra explotara dentro suyo"
+  - "§e Nivel maximo:  §c3"
+  - "§b Nivel 1 - 10% probabilidad | 1 maldicion"
+  - "§b Nivel 2 - 25% probabilidad | 2 maldiciones"
+  - "§b Nivel 3 - 30% probabilidad | 3 maldiciones"
+JUMP_NAME: Salto
+JUMP_LORE:
+  - "§b-Gana boost de salto al usarse"
+LIFESTEAL_NAME: Roba Vida
+LIFESTEAL_LORE:
+  - "§b-Probabilidad de robar la vida de la victima"
+  - "§b ya sea player o mob, entre mas nivel mejor probabilidad"
+  - "§b (20% | 30% | 40%)"
+  - "§e Nivel maximo: §c3"
+  - "§b (Puede ser bloqueado con §dBloquear§b)"
+LIGHTNING_NAME: Relampago
+LIGHTNING_LORE:
+  - "§b-Un relampago caera en la ubicacion donde"
+  - "§b la flecha golpe (hace mas daño a mobs)"
+  - "§b Nivel 1 - 50% probabilidad"
+  - "§b Nivel 2 - 70% probabilidad"
+  - "§e Nivel maximo: §c2"
+  - "§b (Puede ser bloqueado con §dBloquear§b)"
+LIGHTSPIRIT_NAME: Espiritu Ligero
+LIGHTSPIRIT_LORE:
+  - "§d-El Espiritu de la Luz bendecira tu espada"
+  - "§b hace una enorme cantidad de daño"
+  - "§b quien usa este encantamiento es invisible"
+  - "§b a AOE causado por golpe inminente"
+  - "§e Nivel maximo: §c5"
+  - "§b (Hasta +350% daño maximo en nivel maximo)"
+  - "§5 Encantamiento Definitivo"
+LUCK_NAME: Suerte
+LUCK_LORE:
+  - "§b-Otorga suerte al usarse"
+  - "§b y sostener una caña de pescar"
+  - "§e Nivel maximo: §c2"
+LUCKYTREASURE_NAME: Suerte Tesorera
+LUCKYTREASURE_LORE:
+  - "§b-Hay una probabilidad que al estar"
+  - "§b excavando con tu pala recibas un tesoro"
+  - "§6 [Probabilidad de Tesoro: §d0.01%§6]"
+  - "§e Nivel maximo: §c2"
+MINERRADAR_NAME: Radar Minero
+MINERRADAR_LORE:
+  - "§b-Cuando se equipa, quien lo usa sera"
+  - "§b notificado por cualquier entidad en"
+  - "§b un rango de 30 bloques alrededor"
+  - "§b (HOSTIL : NEUTRAL/PASIVO : PLAYER)"
+  - "§d Tambien puede detectar obsidiana y menas"
+  - "§d en el area"
+  - "§5 Usa este encantamiento en un casco separado"
+MOLTEN_NAME: Derretir
+MOLTEN_LORE:
+  - "§b-Inflige daño de fuego a la victima"
+  - "§b El encantamiento tiene un 20% de proabilidad de aplicarse"
+  - "§b (6s | 12s | 18s)"
+  - "§e Nivel maximo: §3"
+NIGHTVISION_NAME: Vision Nocturna
+NIGHTVISION_LORE:
+  - "§b-Otorga vision nocturna al usarse"
+NULLED_NAME: Anular
+NULLED_LORE:
+  - "§b-Al recibir daño y tener poca salud"
+  - "§b quien lo use recibira invencibilidad por 3s"
+  - "§b (3 mins cooldown)"
+OBSIDIANPLATE_NAME: Placa de Obsidiana
+OBSIDIANPLATE_LORE:
+  - "§b-Tiene una probabilidad de tomar un"
+  - "§b  30% durabilidad del arma atacante"
+  - "§b Nivel 1 - 2% de que la durabilidad del arma sea tomada"
+  - "§b Nivel 2 - 5% de que la durabilidad del arma sea tomada"
+  - "§e Nivel maximo: §c2"
+OMNIVAMP_NAME: Omnivamp
+OMNIVAMP_LORE:
+  - "§b-Hay un 25% de probabilidad de que Omnivamp se active"
+  - "§b-Omnivamp, sana a quien lo usa al recibir un ataque"
+POISON_NAME: Veneno
+POISON_LORE:
+  - "§b-Envenena a la victima por un corto periodo"
+  - "§b Nivel 1 - Veneno I effect"
+  - "§b Nivel 2 - Veneno II effect"
+  - "§b (Solo afecta a §5players§b)"
+  - "§e Nivel maximo: §c2"
+POISONOUSTHORNS_NAME: Espinas Venenosas
+POISONOUSTHORNS_LORE:
+  - "§b-Inflige veneno al atacante"
+  - "§b-10% probabilidad"
+PROTECTION_NAME: Proteccion+
+PROTECTION_LORE:
+  - "§b-Mayor proteccion que el"
+  - "§b encantamiento en Minecraft vanilla"
+  - "§e Nivel maximo: §c4"
+  - "§a (Encantamiento de Armadura Universal)"
+REGAIN_NAME: Regenerar
+REGAIN_LORE:
+  - "§b-Gana vida al equiparlo"
+  - "§b si la vida baja a menos de 3 corazones, la regeneracion se activa"
+  - "§b si el daño es mayor a 3 corazones sobrantes, el usuario muere"
+  - "§b (2 min cooldown)"
+SHARPEN_NAME: Afilar
+SHARPEN_LORE:
+  - "§b-Afila tu espada"
+  - "§b Hace (+10%§c/§b20%§c/§b+30%) daño a §6Zombie§c/§6Skeleton"
+  - "§b Hace (+15%§c/§b30%§c/§b+45%) daño a §6Enderman§c/§6Creeper"
+  - "§b Hace (+10%§c/§b15%§c/§b+20%) daño a §6Players"
+  - "§d [§3Mejor combinacion con: §5Critico§d]"
+  - "§e Nivel maximo: §c3"
+SATURATION_NAME: Saturacion
+SATURATION_LORE:
+  - "§b-Lentamente incrementa los niveles de comida"
+  - "§e Nivel maximo: §c3"
+SLOWFALL_NAME: Caida Lenta
+SLOWFALL_LORE:
+  - "§b-Otorca caida lenta al usarse"
+SOUL_EATER_NAME: Come Almas
+SOUL_EATER_LORE:
+  - "§c-La obscuridad devora el alma de tus victimas"
+  - "§b Recolecta almas de mobs asesinados"
+  - "§b Puede recoger hasta §f5000 §balmas"
+  - "§e-Por cada alma el daño subira un poco"
+  - "§a [Hay un 20% de capturar el alma de una"
+  - "§a entidad asesinada]"
+  - "§5 Encantamiento Definitivo"
+SPEED_NAME: Velocidad
+SPEED_LORE:
+  - "§b-Otorga velocidad al usarse"
+STEAL_NAME: Robar
+STEAL_LORE:
+  - "§b-Tiene probabilidad de robarle los items a la victima"
+  - "§b (I - 18% | II - 30%)"
+  - "§b (Algunos mobs son afectados por §5Robar II§b)"
+  - "§e Nivel maximo: §c2"
+STORM_NAME: Tormenta
+STORM_LORE:
+  - "§8-El poder de los vientos y las lluvias se ata a tu espada"
+  - "§b ACTIVO: Click derecho, se invocara por 10s"
+  - "§b una tormenta en un rango de 30 bloques"
+  - "§b (2 min cooldown)"
+  - "§2 (Invocacion se cancelara si se cambia el item)"
+  - "§b PASICO: Gana fuerza en clima lluvioso"
+  - "§5 Encantamiento Definitivo"
+STURDY_NAME: Robusto
+STURDY_LORE:
+  - "§5-Gana resistencia al usarse"
+  - "§b Inflige daño extra a la victima (al atacar)"
+  - "§1 Gana hasta resistencia 3"
+  - "§e Nivel maximo:: §c5"
+TANK_NAME: Tanque
+TANK_LORE:
+  - "§b-Gana vida extra al equiparse"
+  - "§b lvl 1 - (+10 vida maxima)"
+  - "§b lvl 2 - (+20 vida maxima)"
+  - "§e Nivel maximo: §c2"
+TELEPATHY_NAME: Telekinesis
+TELEPATHY_LORE:
+  - "§b-Los bloques destruidos ira"
+  - "§b directo a tu inventario"
+TIMETRAVEL_NAME: Viaje en el Tiempo
+TIMETRAVEL_LORE:
+  - "§b-Teletransporta a quien lo usa"
+  - "§b si esta bajo ataque, el TP es a la ubicacion de 10s antes"
+  - "§b restaurando la vida de 10s antes"
+  - "§b si el daño del atacante es mayor al HP"
+  - "§b el TP no se puede hacer y quien lo usa morira"
+  - "§b (2 min cooldown)"
+UNBREAKING_NAME: Irrompibilidad
+UNBREAKING_LORE:
+  - "§b-Irrompibilidad personalizada"
+  - "§b superior a la irrompibilidad"
+  - "§b en vanilla minecraft"
+  - "§e Nivel maximo: §c4"
+  - "§a (Encantamiento universal)"
+VEIN_NAME: Vein Miner
+VEIN_LORE:
+  - "§b-Mina chunks de menas"
+  - "§d (Telekinesis sera inutil si se combinan)"
+WATERBREATHING_NAME: Respiracion Bajo el Agua
+WATERBREATHING_LORE:
+  - "§b-Gana respiracion bajo el agua al usarse"
+#
+# GUI
+#
+Enchantment_Disabled: ' Encantamiento deshabilitado'
+EnchantmentBook: ' ENCANTAMIENTO'
+BackTitle: '[REGRESAR]'
+BackToMainShopCAPITAL: '[REGRESAR A LA TIENDA]'
+BackToMainShopLORE: '-Regresar a la tienda principal'
+ExitTitle: '[DEJAR LA TIENDA]'
+ExitLore: '-Cierra la tienda, bye bye'
+#
+HelmetTitle: '[ENCANTAMIENTOS DE CASCO]'
+HelmetLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dCASCO"
+#
+ChestplateTitle: '[ENCANTAMIENTOS DE PECHERA]'
+ChestplateLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dPECHERA §bY §dELYTRA"
+#
+LeggingsTitle: "[ENCANTAMIENTOS DE GREBAS]"
+LeggingsLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tus §dGREBAS"
+#
+BootsTitle: "[ENCANTAMIENTOS DE BOTAS]"
+BootsLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tus §dBOTAS"
+#
+WeaponTitle: "[ENCANTAMIENTOS DE ARMAS]"
+WeaponLore:
+  - "§b-Compra encantamientos custom para"
+  - "§b tu §dESPADA/ESCUDO/ARCO/BALLESTA"
+#
+ShovelTitle: "[ENCANTAMIENTOS DE PALAS]"
+ShovelLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §PALA"
+#
+PickaxeTitle: "[ENCANTAMIENTOS DE PICOS]"
+PickaxeLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dPICO"
+#
+HoeTitle: "[ENCANTAMIENTOS DE AZADAS]"
+HoeLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dAZADA"
+#
+AxeTitle: "[ENCANTAMIENTOS DE HACHAS]"
+AxeLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dHACHA"
+#
+
+FishingRodTitle: "[ENCANTAMIENTOS DE CAÑAS]"
+FishingRodLore:
+  - "§b-Comprar encantamientos para"
+  - "§b tu §dCAÑA DE PESCAR"
+#
+RandomTitle: "[ENCANTAMIENTO AL AZAR]"
+RandomLore:
+  - "§b-Compra un encantamiento al azar por"
+  - "§d 50 §bNiveles"
+#
+BuyLevelTitle: "[COMPRAR NIVELES]"
+BuyLevelLore:
+  - "§b-Compra niveles de experiencia"
+BuyLevelLoreDisabled:
+  - "§c-Deshabilitado"
+  - "§c-Plugin/s requerido/s [Vault/Essentials/Kumandra]"
+BuyBossTitle: "[INVOCACION DE BOSSES]"
+BuyBossLevel:
+  - "§b-Compra huevos para invocar Bosses con niveles"
+BuyBossMoney:
+  - "§b-Compra huevos para invocar Bosses con dinero"
+#
+BuyEquipmentTitle: "[COMPRAR EQUIPAMENTO]"
+BuyEquipmentLore:
+  - "§b-Compra equipamento encantado"
+#
+SellTitle: "[VENDER ENCANTAMIENTOS]"
+SellLore:
+  - "§bVende items con encantamientos"
+  - "§b por §bniveles de xp §aal azar"
+  - "§1 (Solo items con CustomEnchantments)"
+SellItem:
+  - "§b-Vende los items con encantamientos custom"
+  - "§b que pongas en el slot de en medio"
+#
+SwordEnchant: "[ENCANTAMIENTOS DE ESPADAS]"
+SwordEnchantLore: "§a-Compra encantamientos para Espadas"
+ShieldEnchant: "[ENCANTAMIENTOS DE ESCUDOS]"
+ShieldEnchantLore: "§a-Compra encantamientos para Escudos"
+BowEnchant: "[ENCANTAMIENTOS DE ARCOS/BALLESTAS]"
+BowEnchantLore: "-§a-Compra encantamientos para Arcos/Ballestas"
+ArmorEnchant: "[ENCANTAMIENTOS DE ARMADURAS]"
+ArmorEnchantLore:
+  - "§a-Compra encantamientos para Armaduras"
+ToolsEnchant: "[ENCANTAMIENTOS DE HERRAMIENTAS]"
+ToolsEnchantLore:
+  - "§a-Compra encantamientos para Herramientas"
+#
+Level: " niveles"
+Price: " precio: "
+#
+CustomEnchantments: "Custom Enchantments "
+EnchantmentBookLore:
+  - "§a>Para encantar, click derecho en el libro encantado"
+  - "§a y luego cambia al [Item] que quieras encantar"
+  - "§a y click derecho con el [Item] en mano."
+#
+NotEnoughLevel: "§cNo tienes suficientes niveles para comprar esto"
+PurchasedBook: "§Compraste un libro encantado"
+ApplyMessage: "§3§lLibro encantado listo para aplicarse"
+FailedToApplyMessage: "§cHubo un fallo al aplicar el encantamiento"
+MaxLevelMessage: "§cHas alcanzado el maximo de niveles para este encantamiento"
+RightClickEnchant: "§aClick derecho al [Item] que quieres encantar"
