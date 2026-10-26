@@ -1,0 +1,26 @@
+# Here you can customize the Tablist Footer.
+# The wait value indicates how long (seconds) it should take before the new animation step is executed.
+# To add a new line, just add a new number with the wait- and line-values.
+
+'1':
+  wait: 5000
+  lines:
+  - ' '
+'2':
+  wait: 2
+  lines:
+  - '&dplaceholder:'
+'3':
+  wait: 2
+  lines:
+  - '&bMax. players:'
+  - '&bOnline:'
+  - '&bYour Name:'
+  - '&bWorld:'
+'4':
+  wait: 2
+  lines:
+  - '&a%playermax%'
+  - '&a%playeronline% Players'
+  - '&a%name%'
+  - '&a%world%'
