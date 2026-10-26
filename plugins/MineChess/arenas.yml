@@ -1,0 +1,47 @@
+arenas:
+  xgraft:
+    lobby:
+      world: world
+      x: -183.0
+      y: 71.5
+      z: 1555.0
+      yaw: 0.0
+      pitch: 0.0
+    board_start_location:
+      world: world
+      x: -195.0
+      y: 67.0
+      z: 1543.0
+      yaw: 0.0
+      pitch: 0.0
+    spawn_1:
+      world: world
+      x: -183.0
+      y: 73.0
+      z: 1546.0
+      yaw: 0.0
+      pitch: 40.0
+    spawn_2:
+      world: world
+      x: -183.0
+      y: 73.0
+      z: 1564.0
+      yaw: 180.0
+      pitch: 40.0
+    enabled: true
+    gamemode: ARENA_TIME
+    gamemode_values:
+      max_time: 7200
+      turn_time: 120
+    end_time: CHECK_POINTS
+    cell_size: LARGE
+    pieces_type: MODEL
+    board_black_cell_block: GRAY_WOOL
+    board_white_cell_block: WHITE_WOOL
+main_lobby:
+  world: world
+  x: -183.00513811730343
+  y: 67.0
+  z: 1539.6069599697878
+  yaw: 0.3001606
+  pitch: 46.499966

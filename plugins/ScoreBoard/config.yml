@@ -1,0 +1,8 @@
+# If you have problems with the plugin, set this to true and maybe it will help you find the error.
+debug: false
+
+#Should the scoreboard be activated?
+scoreboard: true
+
+#Should the tablist be activated?
+tablist: true

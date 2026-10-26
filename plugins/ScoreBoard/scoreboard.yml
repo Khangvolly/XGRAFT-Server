@@ -1,0 +1,36 @@
+# Here you can edit the screboard.
+# You can add as many animation steps as you like.
+# If you would like have an empty score, just leave only one animation step, that is empty
+#
+# With the 'wait' option, you can set how long a single animation step should be displayed (until the next one comes)
+# Note: This is how many ticks it should take. Not seconds. one second = 20 ticks
+
+title:
+  wait: 17
+  titles:
+  - '&b&l🗡 &f&lXGRAFT &e&lSERVER &b&l⛏'
+'0':
+  wait: 20
+  scores:
+  - '  &b%localtime_time%'
+'1':
+  wait: 40
+  scores:
+  - '&e| &fPing: &e%player_ping% &fms'
+'2':
+  wait: 40
+  scores:
+  - '&e| &fWorld time: &e%world_timein12_<world>%'
+'3':
+  wait: 40
+  scores:
+  - '&e| &fOnline: &e%playeronline%&b/&e%server_max_players%'
+'4':
+  wait: 40
+  scores:
+  - '&e&o@%player_name%'
+  - '&exgraft.playit.gg'
+disabled_world:
+- EXEMPLE
+disabled_player:
+- EXEMPLE
