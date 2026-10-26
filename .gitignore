@@ -1,0 +1,14 @@
+# World data
+world/
+world_nether/
+world_the_end/
+
+# Logs
+logs/
+
+# Cache
+cache/
+libraries/
+
+# Temporary
+*.log
