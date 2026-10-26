@@ -1,0 +1,383 @@
+Global:
+  CreateExplosions: true
+  Updates:
+    ShowPercentageOnUpdate: true
+    CheckOnStartup: true
+    CheckDelay: 300
+  Logging:
+    Enabled: false
+    MinimumMsForLog: 1000
+    LogEvents: true
+    LogItems: true
+    LogEnchantments: true
+  Runecrafting:
+    Enabled: true
+    Disenchanting: true
+    CanStackEnchantments: true
+    TransformationEffect: true
+  Books:
+    Name: '&d&kedk&5 Magic Book &d&kedk'
+  Enchantments:
+    CEnchantmentColor: GRAY
+    CEnchantmentTable: true
+    CEnchantingProbability: 10
+    GlowEnchantmentID: 100
+    MaximumCustomEnchantments: 1000
+    UseCustomEnchantmentProbability: false
+    RequirePermissions: true
+#  [CUSTOM ENCHANTS 2]
+#  BY: JAYMAR921
+#  Contributor: Corxl (reif808)
+#  First Released: March 6, 2021
+#  Price: FREE
+#
+VERSION: 2.1.7e
+#
+# This plugin was built for free for everyone to have fun,
+# As a developer of this plugin, I only use this plugin on
+# our own server, and then I realized that it would be nice
+# to share it publicly to grant anyone accesses to play
+# and enjoy :>
+# Below are the custom enchants price list
+# changing value to '0' will disable the enchantment
+#
+# Help the developer :)
+# YouTube Channel: JayMar921
+#
+# UPDATE 7/28/2022
+# This plugin was already discontinued last December 16 2021
+# Since a lot of people are still playing with this version
+# I removed the update checker. Anyways, thanks for playing!
+#
+# [PRICE LIST]
+#
+# Setting Value to 0 will disable the enchantment
+# You can also rename the enchantment name, leaving it blank will be default
+#
+# LANGUAGE SUPPORT IMPLEMENTED
+#
+# ENG - ENGLISH
+# CTM - Configurable Language [English]
+#
+LANGUAGE: CTM
+#
+# [CUSTOM MODEL DATA ON BOOKS]
+ArmorBooks: 1
+WeaponBooks: 2
+ToolBooks: 3
+GrimoireBooks: 4
+#
+# [Player Glow]
+# If player is hold/equip weapon/armor/tools with enchantment
+# Better remain false if your server has a lot of plugins
+# that might conflict with glow effect
+GLOW: false
+#
+# [ENCHANTMENT LIMIT]
+# Default 8
+EnchantLimit: 8
+# Allow Custom Enchant to obtain in Enchantment Table
+# Custom Enchants with '0' price will not be added
+# Note: You will only get Level 1 custom enchants from Enchantment table
+AllowEnchantmentTable: true
+AllowAnvilUpgrades: false
+# Note that the higher enchantment cost, the higher
+# chance for the FirstCEChance to be selected
+# First Chance probability(Second Probability will not happen if first probability fails)
+FirstCEChance: 0.5
+SecondCEChance: 0.15
+# Custom Loots, you can acquire custom enchants
+# loots in treasure chests or chests from villages
+AllowCustomLoot: true
+#
+# [PERMISSION]
+# Who can use /enchantshop command
+# [EVERYONE | ADMIN]
+ENCHANT_SHOP: EVERYONE
+# If there is an economy plugin installed
+# Who can buy levels and boss from the shop
+BUY_LEVELS_SHOP: EVERYONE
+BUY_BOSS_SHOP: EVERYONE
+#
+ABSORB: 60
+ANTI_STUN: 10
+AUTOFARM: 10
+AUTOREPAIR: 150
+AUTOSMELT: 30
+AXOLOTL_BUFF: 30
+BARRIER: 65
+BLAST: 45
+BLEED: 47
+BLIND: 35
+BLINDING_ARROW: 60
+BLOCK*: 200
+BURNING: 35
+CHUNK: 120
+COBWEB: 40
+CRAVING: 35
+CRITICAL: 50
+DEATHANGEL: 125
+DEBUFF: 45
+DEFORESTATION: 25
+DOLPHINSGRACE: 23
+DUCTILE: 35
+EMERGENCYDEFENCE: 80
+EMNITY: 60
+# EXPERIENCE PRICE AND MIN/MAX EXP OBTAINED
+EXPERIENCE: 17
+MIN_EXP: 1
+MAX_EXP: 7
+#
+FIREBOOTS: 200
+FLOWERS: 10
+FOCUSFIRE: 120
+FOODPOCKET: 15
+FORCESHIELD: 68
+FREEZE: 30
+FROST_ARROW: 140
+FROZEN_HOOK: 25
+GUARDED: 50
+HAIL_STORM: 210
+HASTE_AURA: 45
+HEAL: 100
+ILLUSION***: 120
+IMPLANT**: 120
+JUMP: 10
+LIFESTEAL: 60
+LIGHTNING*: 400
+LIGHTSPIRIT****: 500
+LUCK: 50
+LUCKYTREASURE**: 1000
+MINERRADAR: 50
+MOLTEN: 50
+NIGHTVISION: 100
+NULLED*: 40
+OBSIDIANPLATE**: 120
+OMNIVAMP: 200
+POISON: 19
+POISONOUSTHORNS: 60
+PROTECTION: 100
+REGAIN**: 45
+SATURATION: 35
+SECOND_LIFE: 99
+SHARPEN: 135
+SLOWFALL: 18
+SOUL_EATER: 749
+SPEED: 15
+STEAL: 25
+STORM*****: 600
+STURDY: 35
+SUDDEN_BLOW: 80
+TANK*: 300
+TELEPATHY: 15
+TIMETRAVEL**: 400
+UNBREAKING: 100
+VANISH: 120
+VEIN: 30
+WATERBREATHING: 10
+WIND_STRIKE: 45
+#
+# [END OF ENCHANTMENT PRICE CONFIG]
+#
+# Price for Random Enchantment
+RANDOM: 50
+# [Sell enchantment]
+# Maximum/Minimum level that the player receive
+# upon selling the item with Custom Enchantment
+SELL_MAX: 100
+SELL_MIN: 1
+#
+# [BUY EQUIPMENTS]
+# Set the prices for each equipments
+#
+# Swords [from Tier 1 to 7]
+ELITE_SWORD: 60
+VAMPIRE_SWORD: 110
+MASTER_SWORD: 140
+KNIGHT_SWORD: 220
+KNIGHT_CAPTAIN_SWORD: 250
+MARSHAL_SWORD: 285
+GRAND_MARSHAL_SWORD: 350
+#
+# Bows
+MASTER_BOW: 130
+MARSHAL_BOW: 250
+#
+# Armor Set [From Tier 1 to 3]
+#
+ELITE_SET: 150
+KNIGHT_SET: 275
+MARSHAL_SET: 350
+# -----------------------------------------------------------------
+# [KUMANDRA'S ECONOMY SHOP]
+KumandraShopEnable: true
+# PRICES
+healing_grimoire: 530
+lightning_grimoire: 750
+grimoire_price: 330
+force_grimoire: 678
+control_grimoire: 245
+vanish_grimoire: 540
+ultimate_grimoire: 1390
+# Kings Armor set
+king_helmet: 1856
+king_chestplate: 2350
+king_leggings: 2253
+king_boots: 1945
+king_sword: 2340
+# Witch Armor set
+witch_helmet: 1750
+witch_chestplate: 2230
+witch_leggings: 2120
+witch_boots: 1750
+witch_sword: 1755
+# Creeper Armor set
+creeper_helmet: 1643
+creeper_chestplate: 2103
+creeper_leggings: 2030
+creeper_boots: 1560
+creeper_sword: 1995
+# Raid Armor set
+raid_helmet: 1468
+raid_chestplate: 1950
+raid_leggings: 1849
+raid_boots: 1430
+raid_sword: 1920
+raid_bow: 950
+# Unknown armor set
+unknown_helmet: 1120
+unknown_chestplate: 1530
+unknown_leggings: 1480
+unknown_boots: 845
+unknown_sword: 948
+# [END OF KUMANDRA SHOP] ----------------------------------------
+#
+# [TREASURE]
+# This field will be treasure chances [Lucky Treasure Enchantment]
+# value's are in decimal places
+# and it should range between 
+# [ 1.0 to 0.0 ] where 1.0 is the highest
+TREASURES: 0.005
+PHOENIX******: 0.005
+GRIMOIRE******: 0.005
+#
+# [Allow Phoenix]
+# Disabling phoenix will deny players from
+# using the item, and also by getting the item
+# through lucky treasures
+AllowPhoenix: true
+#
+# [Stella]
+# Disabling this will deny players on using bows
+# With stella enchantment
+# Players can only obtain stella through killing the
+# Creeper boss and witch
+# [Note that stella is random, almost impossible to
+# obtain since it is very OP]
+#
+AllowStella: true
+StellaDropChance: 0.001
+#
+# [WEAPON CHANCES]
+# This field will be the weapon trigger chances
+# the value ranges should be the same as [ 1.0 to 0.0 ]
+LIGHTSPIRIT_CHANCE: 0.3
+BLEED_CHANCE: 0.2
+COBWEB_CHANCE: 0.3
+FREEZE_CHANCE: 0.05
+#
+# [SPELL COOL DOWNS]
+#
+GRIMOIRE_STAFF: 30
+#
+GRIMOIRE: 120
+SUPPORT_GRIMOIRE: 130
+#
+STORM_COOLDOWN: 5
+ALLOW_STORM: true
+PHOENIX_COOLDOWN: 600
+STELLA_COOLDOWN: 1800
+#
+#
+# [Chunk enchantment]
+# This will be the size of chunk that the player had
+# mined, 1 = 3x3x3, 2 = 5x5x5, 3 = 7x7x7 and so on..
+# The value for chunk cool down will be in seconds
+CHUNK1: 1
+CHUNK1_CD: 120
+#
+CHUNK2: 2
+CHUNK2_CD: 360
+#
+CHUNK3: 3
+CHUNK3_CD: 900
+#
+CHUNK4: 4
+CHUNK4_CD: 1800
+#
+# Light Spirit Damage multiplier
+# Damage + (Damage * Multiplier) = Final Damage
+LS_1: 1.45
+LS_2: 2.1
+LS_3: 2.8
+LS_4: 3.0
+LS_5: 3.5
+# Grappling hook cooldown in Seconds
+GRAPPLING_HOOK_CD: 0.5
+#
+# [Death Head]
+# When a player dies, instead of dropping
+# items on the ground, it will spawn a head
+# at the death location. Breaking the head
+# will drop all the items that the player has
+# (Sometimes buggy tho)
+ToggleDeathHead: false
+# Hostile Mobs damage Negate (Increasing Hostile Mobs damage Resistance)
+HostileMobsDmgNegate: 0.2
+# ----------------------------------------------------------------
+# [Experimental]
+# Note: You have to restart the server if you modified this section
+#       `/ce reload` only works on setting the Enchantment Prices
+#
+# TnT/Creeper explosion animation
+explosion_animation: true
+#
+death_angel_explosion: false
+# Join and Leave message on chat
+# +JayMar921
+# -JayMar921
+join_leave_message: true
+#
+# [This feature only works on 1.17 and above]
+DisableFrozenTree: true
+DisableEnchantedTree: true
+DisableCustomRecipes: false
+#
+# [ANTI DUPE]
+# Check players inventory, if 2 items found with same
+# data, the copies will be deleted
+#
+# Only works on Items with Enchantments [Books, Armors, Weapons, Shields, Tools]
+#
+# NOTE: This feature does not support items from 2.1.2e and below
+#       therefore if AntiDupe checks same item in inventories the copies
+#       will be auto removed. Make sure to back up your server.
+#       *The Developers are not responsible for this issue*
+# Logs in console will display the player and the item/s(with custom name) removed
+AntiDupe: true
+# [Allow custom Item Status?]
+# when you craft an item ex. Sword, it will have sword status
+CustomItemStatus: true
+createStatusLore: true
+# Allow particle effects while riding a horse?
+horseParticle: false
+# Enable WorldGuard
+WorldGuard: false
+# Enchantments Particle
+# If you are running on low end server, I recommend
+# to set 'EnableParticles' to false
+# There are still some enchantments that will have particles enabled
+# but majority will be affected if disabled.
+EnableParticles: true
+# Enable 'Enchantments:' lore everytime you apply enchantments
+EnableEnchantmentsLore: true

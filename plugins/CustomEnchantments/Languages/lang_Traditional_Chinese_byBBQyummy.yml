@@ -1,0 +1,430 @@
+#由BBQyummy翻譯 /Translate by BBQyummy
+#Custom Language, From english to your language of choice
+#List of color codes here: https://www.digminecraft.com/lists/color_list_pc.php
+ABSORB_NAME: 韌性
+ABSORB_LORE:
+  - "§b-裝備時獲得韌性"
+  - "§b 血量越低減傷越高"
+AUTOREPAIR_NAME: 自動修復
+AUTOREPAIR_LORE:
+  - "§b-緩慢的修復你的裝備"
+  - "§a 通用附魔"
+  - "§e 最高等級: §c2"
+AUTOSMELT_NAME: 自動熔煉
+AUTOSMELT_LORE:
+  - "§b-自動將挖下的原礦轉為錠"
+AXOLOTL_BUFF_NAME: 蠑螈守護者
+AXOLOTL_BUFF_LORE:
+  - "§b-當血量過低時玩家將會召喚一隻"
+  - "§c 蠑螈 §b 10秒, 治療此玩家"
+  - "§e 最高等級: §c2"
+BARRIER_NAME: 屏障
+BARRIER_LORE:
+  - "§d-獲得額外的屏障血量"
+  - "§b 在血量滿的時候會慢慢回復"
+  - "§e 最高等級: §c3"
+BLAST_NAME: "火球術"
+BLAST_LORE:
+  - "§b-發射火球至指定位置"
+  - "§b 擊中目標時將會爆炸"
+  - "§e 最高等級: §c2"
+BLEED_NAME: 流血
+BLEED_LORE:
+  - "§b-敵人會流10秒的血"
+  - "§b (20% 機率)"
+BLIND_NAME: 瘴幕
+BLIND_LORE:
+  - "§b-20% 的機率使敵人致盲3秒"
+BLINDING_ARROW_NAME: 致盲箭矢
+BLINDING_ARROW_LORE:
+  - "§b-致盲目標2秒"
+BLOCK_NAME: 格擋
+BLOCK_LORE:
+  - "§b-格擋來襲的傷害"
+  - "§b (進戰遠程皆可)"
+  - "§b (I - 20% | II - 40%)"
+  - "§e 最高等級: §c2"
+BURINING_NAME: 燃燒
+BURNING_LORE:
+  - "§b-使目標凋零及燃燒"
+  - "§3 (可附魔至劍及斧)"
+CHUNK_NAME: 區塊挖掘者
+CHUNK_LORE:
+  - "§b-挖掉整個區塊的方塊"
+  - "§e 最高等級: §c4"
+  - "§b lvl 1 - 小區塊§2 2 分鐘冷卻"
+  - "§b lvl 2 - 中區塊§2 6 分鐘冷卻"
+  - "§b lvl 3 - 大區塊§2 15 分鐘冷卻"
+  - "§b lvl 4 - 極大區塊§2 30 分鐘冷卻"
+  - "§a (lvl 1 & 2 將損耗工具耐久以"
+  - "§a挖下的每個方塊計算，每個20%機率損耗)"
+  - "§a lvl 3 & 4 每個10%機率損耗"
+  - "§d (Telekinesis will be useless if combined)"
+COBWEB_NAME: 蛛網放置者
+COBWEB_LORE:
+  - "§b-被攻擊時將放置一個蜘蛛網"
+  - "§b 緩速攻擊者"
+CRAVING_NAME: 飢餓者
+CRAVING_LORE:
+  - "§b-當被攻擊時"
+  - "§b 攻擊者有 20% 機率飢餓"
+CRITICAL_NAME: 暴擊
+CRITICAL_LORE:
+  - "§b-造成更多的傷害"
+  - "§b (I - 20% | II - 25% | III - 30%)"
+  - "§b (可以被§d格擋附魔格擋§b)"
+  - "§e 最高等級: §c3"
+DEATHANGEL_NAME: 死亡彗星
+DEATHANGEL_LORE:
+  - "§5-死亡將聚集在弓上"
+  - "§b 召喚一發彗星在箭的落點上"
+  - "§b (30秒冷卻)"
+DEBUFF_NAME: 無效化
+DEBUFF_LORE:
+  - "§b-無效化負面效果"
+  - "§b (中毒 | 噁心 | 緩速)"
+DEFORESTATION_NAME: 筏木工
+DEFORESTATION_LORE:
+  - "§b-將樹幹部分整個砍下"
+  - "§3 (依然會消耗耐久)"
+DOLPHINSGRACE_NAME: 海豚祝福
+DOLPHINSGRACE_LORE:
+  - "§b-加速游泳速度"
+DUCTILE_NAME: 吸收
+DUCTILE_LORE:
+  - "§d-吸收受到傷害"
+  - "§b 最高吸收30%"
+  - "§e 最高等級: §c5"
+EMERGENCYDEFENCE_NAME: 緊急迴避
+EMERGENCYDEFENCE_LORE:
+  - "§b-當伊格玩家生命值極低時"
+  - "§b 將無視所有來源傷害"
+  - "§b 同時回復生命5秒"
+  - "§b (3分鐘冷卻)"
+EMNITY_NAME: 背水一戰
+EMNITY_LORE:
+  - "§b-裝備時獲得力量"
+  - "§b 血量越低傷害越高"
+EXPERIENCE_NAME: 經驗
+EXPERIENCE_LORE:
+  - "§b-破壞方塊將掉落經驗"
+  - "§b-礦物將獲得更多經驗"
+FIREBOOTS_NAME: 抗火鞋
+FIREBOOTS_LORE:
+  - "§b-裝備時獲得火焰耐性"
+FLOWERS_NAME: 花花公子
+FLOWERS_LORE:
+  - "§b-走在草地上時將生成花朵"
+FOODPOCKET_NAME: 食物口袋
+FOODPOCKET_LORE:
+  - "§b-每2分鐘"
+  - "§b 玩家將會獲得1種隨機食物"
+  - "§d (旅行時很有用)"
+  - "§3 (可以用 '/ce foodpocket'關閉)"
+FREEZE_NAME: 寒冷
+FREEZE_LORE:
+  - "§b-對敵人施加緩速"
+  - "§b 敵人將2秒無法移動, 5% 機率"
+FROST_ARROW_NAME: 寒冰箭矢
+FROST_ARROW_LORE:
+  - "§5-對目標造成更多傷害"
+  - "§b +25%§c/§b+30%§c/§b+45% 箭矢傷害"
+  - "§b 緩速目標1秒"
+  - "§e 最高等級: §c3"
+HASTE_AURA_NAME: 振奮
+HASTE_AURA_LORE:
+  - "§b-當裝備時"
+  - "§b 玩家將會獲得效率"
+  - "§b 5格內的玩家也會受益"
+  - "§e 最高等級: §c3"
+HEAL_NAME: 治療
+HEAL_LORE:
+  - "§b-裝備時將慢慢恢復生命"
+ILLUSION_NAME: 幻影
+ILLUSION_LORE:
+  - "§5 致命的玩笑"
+  - "§b-當攻擊玩家時"
+  - "§b 將隱形 3秒"
+  - "§b-隱形時無法攻擊"
+  - "§b 敵方也看不見你"
+  - "§e 最高等級: §c2"
+  - "§b lvl 1 - 2 充能"
+  - "§b lvl 2 - 4 充能"
+IMPLANT_NAME: 詛咒者
+IMPLANT_LORE:
+  - "§5-黑暗能量匯聚在你的弓上"
+  - "§b 詛咒你擊中的敵人"
+  - "§e 最高等級: §c3"
+  - "§b level 1 - 10% 機率 | 1 個詛咒"
+  - "§b level 2 - 25% 機率  | 2 個詛咒"
+  - "§b level 3 - 30% 機率  | 3 個詛咒"
+JUMP_NAME: 跳躍
+JUMP_LORE:
+  - "§b-彈跳的更高"
+LIFESTEAL_NAME: 生命竊取
+LIFESTEAL_LORE:
+  - "§b-有機率在攻擊時回復生命"
+  - "§b 機率隨等級上升"
+  - "§b (20% | 30% | 40%)"
+  - "§e 最高等級: §c3"
+  - "§b (可以被§d格擋附魔格擋§b)"
+LIGHTNING_NAME: 雷擊
+LIGHTNING_LORE:
+  - "§b-閃電將落在箭矢烙下的地方"
+  - "§b lvl 1 - 50% chance"
+  - "§b lvl 2 - 70% chance"
+  - "§e 最高等級: §c2"
+  - "§b (可以被§d格擋附魔格擋§b)"
+LIGHTSPIRIT_NAME: 閃電精靈
+LIGHTSPIRIT_LORE:
+  - "§d-閃電精靈加強哦你的劍"
+  - "§b 造成大量傷害"
+  - "§b 裝備此附魔的玩家將免疫此傷害"
+  - "§e 最高等級: §c5"
+  - "§b (最高等級最高+350%最大傷害)"
+  - "§5 終極附魔"
+LUCK_NAME: 幸運
+LUCK_LORE:
+  - "§b-裝備時獲得幸運"
+  - "§e 最高等級: §c2"
+LUCKYTREASURE_NAME: 寶藏
+LUCKYTREASURE_LORE:
+  - "§b-當挖掘時有機率獲得一個寶藏"
+  - "§6 [機率: §d0.01%§6]"
+  - "§c (§f與§6寶藏守衛§fand §5首領§f戰鬥§c)"
+  - "§e 最高等級: §c2"
+MINERRADAR_NAME: 雷達
+MINERRADAR_LORE:
+  - "§b-當裝備時"
+  - "§b 將會顯示30格內的資訊"
+  - "§d 也可以探測礦物"
+  - "§5 在獨立的頭盔上使用這個附魔"
+MOLTEN_NAME: 烈焰者
+MOLTEN_LORE:
+  - "§b-影響著火的目標"
+  - "§b 20%機率"
+  - "§b (6s | 12s | 18s"
+  - "§e 最高等級: §3"
+NIGHTVISION_NAME: 夜視
+NIGHTVISION_LORE:
+  - "§b-獲得夜視效果"
+NULLED_NAME: 遁隱
+NULLED_LORE:
+  - "§b-當低血量時被玩家攻擊"
+  - "§b 隱形3秒"
+  - "§b (3 分鐘冷卻)"
+OBSIDIANPLATE_NAME: 黑曜石裝甲
+OBSIDIANPLATE_LORE:
+  - "§b-有機率降低對方武器的耐久"
+  - "§b 30%機率"
+  - "§b level 1 - 2% 耐久值消失"
+  - "§b level 2 - 5% 耐久值消失n"
+  - "§e 最高等級: §c2"
+OMNIVAMP_NAME: 奮戰者
+OMNIVAMP_LORE:
+  - "§b-25% 在受到傷害時觸發好戰者 "
+  - "§b-好戰者,在攻擊時回復生命"
+POISON_NAME: 中毒
+POISON_LORE:
+  - "§b-使敵人中毒一小段時間"
+  - "§b level 1 - 中毒 I 效果"
+  - "§b level 2 - 中毒 II 效果"
+  - "§b (僅作用在 §5玩家§b)"
+  - "§e 最高等級: §c2"
+POISONOUSTHORNS_NAME: 侵蝕王冠
+POISONOUSTHORNS_LORE:
+  - "§b-對攻擊者施加中毒"
+  - "§b-10% 機率"
+PROTECTION_NAME: 保護
+PROTECTION_LORE:
+  - "§b-比原版的保護更強"
+  - "§e 最高等級: §c4"
+  - "§a (通用附魔)"
+REGAIN_NAME: 復甦
+REGAIN_LORE:
+  - "§b-裝備時獲得生命"
+  - "§b 血量低於3顆心時復甦啟動"
+  - "§b 如果來源攻擊高於3顆心玩家死亡"
+  - "§b (2 分鐘冷卻)"
+SHARPEN_NAME: 鋒利
+SHARPEN_LORE:
+  - "§b-鋒利你的劍"
+  - "§b 對§6Zombie§c/§6Skeleton 多造成(+10%§c/§b20%§c/§b+30%)傷害"
+  - "§b 對§6Enderman§c/§6Creeper 多造成 (+10%§c/§b15%§c/§b+20%)傷害"
+  - "§b 對§6玩家多造成 (+10%§c/§b15%§c/§b+20%)傷害"
+  - "§e 最高等級: §c3"
+SATURATION_NAME: 飽足感
+SATURATION_LORE:
+  - "§b-緩慢的增加飽食度"
+  - "§e 最高等級: §c3"
+SLOWFALL_NAME: 緩降
+SLOWFALL_LORE:
+  - "§b-獲得緩降效果"
+SOUL_EATER_NAME: 靈魂收割者
+SOUL_EATER_LORE:
+  - "§c-吞噬你對手的靈魂"
+  - "§b 從你殺死的對象上收取靈魂"
+  - "§b 最高可以疊 §f5000層"
+  - "§e-每個靈魂會稍微增加攻擊力"
+  - "§a [20%的機率從目標上收取靈魂]"
+  - "§5 終極附魔"
+SPEED_NAME: 加速
+SPEED_LORE:
+  - "§b-獲得速度效果"
+STEAL_NAME: 偷竊
+STEAL_LORE:
+  - "§b-有機率從攻擊玩家上偷取物品"
+  - "§b (I - 18% | II - 30%)"
+  - "§b (某些生物也可作用於§5偷竊 II§b)"
+  - "§e 最高等級: §c2"
+STORM_NAME: 風暴
+STORM_LORE:
+  - "§8-風暴能量匯聚在你的劍上"
+  - "§b 開始施法: 當右鍵時玩家將會吟唱10秒"
+  - "§b 風暴將席捲30格內的範圍"
+  - "§b (2分鐘冷卻)"
+  - "§2 (更換道具將取消施法)"
+  - "§b 被動: 在風暴中獲得力量"
+  - "§5 終極附魔"
+STURDY_NAME: 攪亂者
+STURDY_LORE:
+  - "§5-裝備時獲得抗性"
+  - "§b 對敵人施加負面效果"
+  - "§1 最高抗性三"
+  - "§e 最高等級: §c5"
+TANK_NAME: 坦克
+TANK_LORE:
+  - "§b-在裝備時獲得額外血量"
+  - "§b lvl 1 - (+10 最大生命)"
+  - "§b lvl 2 - (+20 最大生命)"
+  - "§e 最高等級: §c2"
+TELEPATHY_NAME: 自動收取
+TELEPATHY_LORE:
+  - "§b-破壞的方塊會直接轉移至包包"
+TIMETRAVEL_NAME: 時空旅行者
+TIMETRAVEL_LORE:
+  - "§b 當被攻擊時，將玩家傳送回10秒前的位置"
+  - "§b 將血量回復至10秒前的狀態"
+  - "§b 如果受到的傷害大於玩家目前的血量"
+  - "§b 傳送將不會進行，玩家死亡"
+  - "§b (2分鐘冷卻)"
+UNBREAKING_NAME: 耐久
+UNBREAKING_LORE:
+  - "§b-使你的物品更耐用"
+  - "§e 最高等級: §c4"
+  - "§a (通用附魔)"
+VEIN_NAME: 挖掘工
+VEIN_LORE:
+  - "§b-挖掉整個礦脈"
+WATERBREATHING_NAME: 水下呼吸
+WATERBREATHING_LORE:
+  - "§b-獲得水下呼吸效果"
+#
+# GUI
+#
+Enchantment_Disabled: ' 此附魔被停用'
+EnchantmentBook: ' 附魔書'
+BackTitle: '[返回]'
+BackToMainShopCAPITAL: '[回到主商店]'
+BackToMainShopLORE: '-回到主商店'
+ExitTitle: '[離開商店]'
+ExitLore: '-關閉商店'
+#
+HelmetTitle: '[頭盔附魔]'
+HelmetLore:
+  - "§b幫你的 §d頭盔§b特殊附魔 "
+#
+ChestplateTitle: '[胸甲附魔]'
+ChestplateLore:
+  - "§b幫你的 §d胸甲§b特殊附魔 "
+#
+LeggingsTitle: "[護腿附魔]"
+LeggingsLore:
+  - "§b幫你的 §d護腿§b特殊附魔 "
+#
+BootsTitle: "[靴子附魔]"
+BootsLore:
+  - "§b幫你的 §d靴子§b特殊附魔 "
+#
+WeaponTitle: "[武器附魔]"
+WeaponLore:
+  - "§b幫你的 §d武器§b特殊附魔 "
+#
+ShovelTitle: "[S鏟子附魔]"
+ShovelLore:
+  - "§b幫你的 §d鏟子§b特殊附魔 "
+#
+PickaxeTitle: "[十字搞附魔]"
+PickaxeLore:
+  - "§b幫你的 §d十字搞§b特殊附魔 "
+#
+HoeTitle: "[鋤頭附魔]"
+HoeLore:
+  - "§b幫你的 §d鋤頭§b特殊附魔 "
+#
+AxeTitle: "[斧頭附魔]"
+AxeLore:
+  - "§b幫你的 §d斧頭§b特殊附魔 "
+#
+
+FishingRodTitle: "[魚竿附魔]"
+FishingRodLore:
+  - "§b幫你的 §d魚竿§b特殊附魔 "
+#
+RandomTitle: "[隨機附魔]"
+RandomLore:
+  - "§b-花費50等級取得隨機附魔"
+#
+BuyLevelTitle: "[BUY LEVELS]"
+BuyLevelLore:
+  - "§b-Buy Levels"
+BuyLevelLoreDisabled:
+  - "§c-Disabled"
+  - "§c-Required Plugin/s [Vault/Essentials/Kumandra]"
+BuyBossTitle: "[BOSS SPAWN EGGS]"
+BuyBossLevel:
+  - "§b-Buy boss spawn egg using levels"
+BuyBossMoney:
+  - "§b-Buy boss spawn egg using money"
+#
+BuyEquipmentTitle: "[購買裝備]"
+BuyEquipmentLore:
+  - "§b-購買裝備"
+#
+SellTitle: "[出售附魔]"
+SellLore:
+  - "§b販賣有附魔的物品"
+  - "§b 獲得§a隨機 §b等級"
+  - "§1 (僅接受特殊附魔物品)"
+SellItem:
+  - "§b-販賣特殊附魔物品"
+  - "§b 放在中央空格"
+#
+SwordEnchant: "[劍附魔]"
+SwordEnchantLore: "-購買劍附魔"
+ShieldEnchant: "[盾附魔]"
+ShieldEnchantLore: "-購買盾附魔"
+BowEnchant: "[弓/弩附魔]"
+BowEnchantLore: "-購買弓/弩附魔"
+ArmorEnchant: "裝甲附魔"
+ArmorEnchantLore:
+  - "§a-購買裝甲附魔"
+ToolsEnchant: "工具附魔"
+ToolsEnchantLore:
+  - "§a-購買工具附魔"
+#
+Level: " 等級"
+Price: " 價格: "
+#
+CustomEnchantments: "特殊附魔 "
+EnchantmentBookLore:
+  - "§a>要附魔的話右鍵你的附魔書"
+  - "§a 接下來切換至你想附魔的物品"
+  - "§a 對那項物品按右鍵."
+#
+NotEnoughLevel: "§c你的等級不夠購買這項物品"
+PurchasedBook: "§e你買了一本附魔書"
+ApplyMessage: "§3§l準備附魔"
+FailedToApplyMessage: "§c附魔失敗"
+MaxLevelMessage: "§c已達到此項附魔的最高等級"
+RightClickEnchant: "§a右鍵你想附魔的物品"
